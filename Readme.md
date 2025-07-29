@@ -26,3 +26,30 @@ A full-stack movie database web application to explore, filter, and view details
 - Easily set up the app using Docker and Docker Compose:
   ```bash
   docker-compose up --build
+
+### Tech Stack
+- Backend: Golang (Gin framework), GORM
+
+- Database: PostgreSQL or MySQL
+
+- Documentation: Swagger (OpenAPI)
+
+- Containerization: Docker & Docker Compose
+
+- Frontend (optional): HTML/CSS/JS, React, or your preferred framework
+
+### Running Tests
+
+- go test ./...
+- golangci-lint run
+
+### API Examples
+Example endpoints:
+
+- GET /movies?genre=Action&year=2020
+
+- GET /actors/:id
+
+- GET /directors/:id
+
+- Swagger UI can be accessed at: (http://localhost:8080/swagger/index.html)
