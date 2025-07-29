@@ -41,7 +41,6 @@ A full-stack movie database web application to explore, filter, and view details
 ### Running Tests
 
 - go test ./...
-- golangci-lint run
 
 ### API Examples
 Example endpoints:
